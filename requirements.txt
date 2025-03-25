@@ -1,0 +1,8 @@
+numpy
+matplotlib
+networkx
+pandas
+nltk
+tk
+pathlib
+
