@@ -1,8 +1,9 @@
-numpy
-matplotlib
-networkx
-pandas
-nltk
-tk
-pathlib
+nltk 
+numpy 
+pandas 
+scikit-learn 
+torch 
+transformers 
+sentence-transformers
+sentencepiece
 
