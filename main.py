@@ -536,7 +536,7 @@ class FileSimilarityTool:
         self.root.update_idletasks()
 
         # Pre-load model if it's a transformer method and not already loaded
-        if method_name != "WordNet (Graph-based)" and TRANSFORMERS_AVAILABLE:
+        if method_name != "wordnet" and TRANSFORMERS_AVAILABLE:
             if not self.load_similarity_model(method_name):
                 self.status_label.config(text="Comparison cancelled: Model load failed.")
                 return [] # Stop if model loading fails
